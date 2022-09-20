@@ -4,9 +4,9 @@ import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -26,9 +26,9 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to={'/'} className="flex items-center">
           HOME
-        </a>
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -36,9 +36,9 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          ABOUT US
-        </a>
+        <NavLink to={'about'} className="flex items-center">
+          ABOUT
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -46,9 +46,9 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <NavLink to={'contact'} className="flex items-center">
           CONTACT
-        </a>
+        </NavLink>
       </Typography>
     </ul>
   );

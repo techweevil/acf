@@ -1,9 +1,14 @@
-import React from 'react'
+import Container from "../../helpers/Container";
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      <Container>
+        <p>©ACF 2022 </p>
+      </Container>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
