@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/Body/About";
+import Contact from "./components/Body/Contact";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Showcase />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Showcase />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         <Footer />

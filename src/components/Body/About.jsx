@@ -5,6 +5,8 @@ import mission from "../../assets/images/mission.png";
 import vision from "../../assets/images/vission.png";
 import value from "../../assets/images/VALUE.png";
 import aim from "../../assets/images/aim.png";
+import founder from "../../assets/images/founder.png";
+import cof from "../../assets/images/cof.png";
 
 const data = [
   "To bring hope to underprivileged students within Federal Polytechnic Offa and outside the Polytechnic.",
@@ -23,6 +25,16 @@ const values = [
   "Fairness and Justice.",
   "Humanity and Impact. ",
   "Professionalism and Team Work.",
+];
+
+const members = [
+  "OLAWEPO OLANIYI OLAMILEKAN.",
+  "ABIOYE BASIT AYOMIDE",
+  "INALEGWU VICTOR",
+  "WAHAB ADAM AJIBOLA",
+  "ABDULAFEEZ ABDULROKEEB",
+  "OYEDELE ABDULMALIK",
+  "OSAYE BOLUWATIFE",
 ];
 
 const About = () => {
@@ -88,8 +100,8 @@ const About = () => {
               </div>
               <div className="flex flex-col gap-4 w-full">
                 {values.map((value, index) => (
-                  <div className="bg-black rounded-2xl p-4 w-full">
-                    <p key={index}>{value}</p>
+                  <div key={index} className="bg-black rounded-2xl p-4 w-full">
+                    <p>{value}</p>
                   </div>
                 ))}
               </div>
@@ -106,8 +118,8 @@ const About = () => {
               </div>
               <div className="flex flex-col gap-4">
                 {data.map((value, index) => (
-                  <div className="bg-black rounded-2xl p-4">
-                    <p key={index}>{value}</p>
+                  <div key={index} className="bg-black rounded-2xl p-4">
+                    <p>{value}</p>
                   </div>
                 ))}
               </div>
@@ -117,10 +129,50 @@ const About = () => {
       </div>
       <div>
         <Container>
-            <div>
-                <h1 className="text-3xl font-bold text-center">OUR TEAM</h1>
+          <div>
+            <h1 className="text-3xl font-bold text-center">OUR TEAM</h1>
+
+            <div className="flex flex-col items-center my-5">
+              <div className="flex md:flex-row flex-col  md:gap-5 gap-6">
+                <div className="flex flex-col gap-2 items-center">
+                  <div className="w-[12em] h-[12em] rounded-full  backdrop-blur-sm bg-white/30 shadow-2xl flex flex-col overflow-hidden ">
+                    <img src={founder} alt="" />
+                    <div className="relative -top-[2rem]">
+                      <p className="bg-black text-white p-1 text-[12px] text-center">
+                        FOUNDER
+                      </p>
+                    </div>
+                  </div>
+                  <p className=" font-[800] p-1 ">(OLATUNJI SOLOMON OLAMIDE)</p>
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <div className="w-[12em] h-[12em] rounded-full  backdrop-blur-sm bg-white/30 shadow-2xl flex flex-col overflow-hidden ">
+                    <img src={cof} alt="" />
+                    <div className="relative -top-[2rem]">
+                      <p className="bg-black text-white p-1 text-[12px] text-center">
+                        CO-FOUNDER
+                      </p>
+                    </div>
+                  </div>
+                  <p className=" font-[800] p-1 ">(OSHINYEMI ISMAIL ADEMOLA)</p>
+                </div>
+              </div>
             </div>
-            </Container>
+          </div>
+
+          <div className="text-white text-[1.3em] backdrop-blur-sm bg-white/30 p-5 rounded-2xl  flex flex-col gap-4 items-center mb-3">
+            <div className="flex md:flex-col flex-row  gap-2 items-center text-black ">
+              <p className="font-[700]">PIONEER MEMBERS</p>
+            </div>
+            <div className="flex flex-col gap-4">
+              {members.map((value, index) => (
+                <div key={index} className="bg-black rounded-2xl p-4">
+                  <p>{value}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
       </div>
     </div>
   );

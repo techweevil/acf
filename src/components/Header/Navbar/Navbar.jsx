@@ -26,8 +26,13 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <NavLink to={'/'} className="flex items-center">
-          HOME
+        <NavLink to={"/"} className="flex items-center">
+          <button
+            className="w-full hover:bg-black hover:text-white"
+            onClick={() => setOpenNav(false)}
+          >
+            HOME
+          </button>
         </NavLink>
       </Typography>
       <Typography
@@ -36,8 +41,13 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <NavLink to={'about'} className="flex items-center">
-          ABOUT
+        <NavLink to={"about"} className="flex items-center">
+          <button
+            className="w-full hover:bg-black hover:text-white"
+            onClick={() => setOpenNav(false)}
+          >
+            ABOUT
+          </button>
         </NavLink>
       </Typography>
       <Typography
@@ -46,8 +56,13 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <NavLink to={'contact'} className="flex items-center">
-          CONTACT
+        <NavLink to={"contact"} className="flex items-center">
+          <button
+            className="w-full hover:bg-black hover:text-white"
+            onClick={() => setOpenNav(false)}
+          >
+            CONTACT
+          </button>
         </NavLink>
       </Typography>
     </ul>

@@ -3,7 +3,7 @@ import React from "react";
 const Showcase = () => {
   return (
     // <div class=" bg-gradient-to-r from-cyan-500 to-[#865747]">
-    <div className="bg-[url('././assets/images/bg.jpg')] ">
+    <div className="bg-[url('././assets/images/bg.jpg')] bg-cover bg-center">
       <div className="md:mx-[3rem] lg:mx-[5rem] mx-[1rem] lg:py-[2rem] md:py-[1.5rem] py-[1rem] h-screen flex items-center">
         <div className="lg:w-[60%] md:w-[80%] w-full">
           <div className="flex flex-col gap-5">
@@ -17,7 +17,7 @@ const Showcase = () => {
             </div>
 
             <div className="backdrop-blur-sm bg-white/30 p-3">
-              <p className="text-white text-[1.3em] ">
+              <p className="text-black text-[1.3em] ">
                 Ascension Crew foundation is a non governmental organization set
                 up with the sole purpose of contributing to positive change in
                 the economic and social status of Nigerians, the less
