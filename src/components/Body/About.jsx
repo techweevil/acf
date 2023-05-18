@@ -9,12 +9,12 @@ import founder from "../../assets/images/founder.png";
 import cof from "../../assets/images/cof.png";
 
 const data = [
-  "To bring hope to underprivileged students within Federal Polytechnic Offa and outside the Polytechnic.",
-  "To increase the awareness of privileged students of the need to participate In community service initiatives.",
-  "To raise a great and substantial generation of change agents/nation builders within the Polytechnic and outside the polytechnic.",
-  "To provide valuable and Life changing mentorship to underprivileged students and children.",
+  "To bring hope to underprivileged students within Tertiary institutions in the Nation.",
+  "To increase the awareness of privileged students of the need to participate in community service initiatives.",
+  "To raise a great and substantial generation of change agents/nation builders within Tertiary Institutions across the Nation.",
+  "To provide valuable and life changing mentorship to underprivileged/less privileged  students.",
   "To improve the educational outcomes of underprivileged children by enhancing teacher quality through appropriate professional development programmes.",
-  "To provide rock-bottom finance for students within Federal Polytechnic Offa and outside the polytechnic.",
+  "To provide rock-buttom finance for students across Tertiary institutions in the Nation",
   "To provide humanitarian service that’s based solely on Orphan’s Affairs.",
   "To create awareness for skill acquisition for the under privileged as a source of poverty eradication.",
 ];
@@ -67,9 +67,8 @@ const About = () => {
               </div>
               <p>
                 Building an adequate society through constructive engagement
-                with stakeholders expand oppyfor self development and
-                realization among the youth, poor, minorities and vulnerable and
-                population.
+                with stakeholders expand for self development and realization
+                among the youth, poor, minorities and vulnerable and population.
               </p>
             </div>
 
