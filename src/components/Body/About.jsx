@@ -142,7 +142,7 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                  <p className=" font-[800] p-1 ">(OLATUNJI SOLOMON OLAMIDE)</p>
+                  <p className=" font-[800] p-1 ">(OLATUNJI ABDUL'HAQQ  OLAMIDE)</p>
                 </div>
                 <div className="flex flex-col gap-2 items-center">
                   <div className="w-[12em] h-[12em] rounded-full  backdrop-blur-sm bg-white/30 shadow-2xl flex flex-col overflow-hidden ">
